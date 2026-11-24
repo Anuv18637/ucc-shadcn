@@ -1,0 +1,58 @@
+.metric-card {
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 24px 22px 22px 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.metric-card:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
+.metric-card-alert {
+  border: 1.5px solid #fca5a5;
+}
+
+.metric-badge {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.metric-badge-neutral {
+  background-color: #f3f4f6;
+  color: #4b5563;
+}
+
+.metric-badge-alert {
+  background-color: #fee2e2;
+  color: #e60000;
+}
+
+.metric-value {
+  font-family: 'VodafoneBold', 'VodafoneRg', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #111827;
+  margin: 0 0 6px 0;
+}
+
+.metric-label {
+  font-family: 'VodafoneRg', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #6b7280;
+  margin: 0;
+}
